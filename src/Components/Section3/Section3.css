@@ -1,0 +1,113 @@
+.section3{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.threeleft{
+flex: 1;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+gap: 15px;
+flex-direction: column;
+}
+.threeleft div:nth-child(1){
+    color: #252525;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+}
+.threeleft div:nth-child(2){
+    color: #9597A1;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+padding-bottom: 20px;
+}
+.threebottom{
+display: flex;
+justify-content: center;
+border-top: 1px solid var(--color1);
+/* align-items: center; */
+padding-top: 50px;
+}
+.threebottom div:nth-child(1){
+    font-size: 15px;
+    flex: 1;
+    font-family: Inter;
+}
+.threebottom div:nth-child(1) div:nth-of-type(1),.threebottom div:nth-child(2) div:nth-of-type(1){
+   font-size: 16px;
+   padding-top: 10px;
+   padding-bottom: 10px !important;
+   font-weight: 600;
+   font-family: Inter;
+   color: #252525;
+}
+.threebottom div:nth-child(2){
+    font-size: 15px;
+    flex: 1;
+}
+.threebottom div:nth-child(1) div:nth-of-type(2),.threebottom div:nth-child(2) div:nth-of-type(2){
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+    font-weight: 500;
+    color: #9597A1 !important;
+font-family: Inter;
+ }
+
+.threebottom img{
+    width: 130px;
+}
+.threeright{
+flex: 1;
+}
+.threeright img{
+    width: 119%;
+}
+
+@media(max-width:1024px){
+    .section3 {
+        padding-top: 30px;
+    }
+
+    .threeleft div:nth-child(1) {
+        font-size: 35px;
+    }
+    .threeright img {
+        width: 124%;
+    }
+}
+@media(max-width:768px){
+    .threeleft div:nth-child(1) {
+        font-size: 25px;
+    }
+
+    .threeright img {
+        width: 107%;
+    }
+    .threeleft div:nth-child(1) {
+        font-size: 25px;
+    }
+    .threeleft div:nth-child(2) {
+        font-size: 12px;
+    }
+    .threebottom img {
+        width: 103px;
+    }
+    .threebottom div:nth-child(1) div:nth-of-type(2), .threebottom div:nth-child(2) div:nth-of-type(2) {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:428px){
+    .section3 {
+        flex-direction: column;
+    }
+    .threeright img {
+        width: 100%;
+    }
+}

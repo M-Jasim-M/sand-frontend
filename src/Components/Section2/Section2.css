@@ -1,0 +1,30 @@
+.section2{
+   
+}
+.twotopmian{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.twotopmian div:nth-child(1){
+    color: #252525;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Inter;
+}
+.twotopmian div:nth-child(2){
+    color: #AFB1BD;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.carddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}

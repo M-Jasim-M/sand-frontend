@@ -1,0 +1,141 @@
+.mainnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: var(--color1);
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.first img {
+    width: 30px;
+    height: 30px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #393840;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+
+    
+}
+
+.second li {
+    list-style: none;
+}
+
+.second li select {
+    border: none;
+    color: #393840;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    outline: none;
+    padding: 0px 10px 0px 0px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.third div:nth-child(1) {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.third div:nth-child(2) {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px 23px;
+    background-color: var(--color1);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.resright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+.four{
+    display: none;
+}
+@media(max-width:1024px){
+    .resright{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 77%;
+    }
+}
+
+
+@media(max-width:768px){
+    .four{
+        display: block;
+        z-index: 5;
+        color: gray;
+    }
+    
+    .resright{
+        display: flex;
+        padding-top: 50px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: -45%;
+        width: 45%;
+        background-color: whitesmoke;
+        gap: 15px;
+        transition: 1s;
+    }
+    .resright2{
+        display: flex;
+        padding-top: 50px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 45%;
+        background-color: whitesmoke;
+        gap: 15px;
+        transition: 1s;
+    }
+
+
+    .second{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .third{
+        align-items: flex-start;
+        flex-direction: column;
+        width: 120px;
+    }
+}
