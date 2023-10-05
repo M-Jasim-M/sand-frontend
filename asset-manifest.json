@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sand-frontend/static/css/main.2437933f.css",
+    "main.js": "/sand-frontend/static/js/main.b1c6a3c6.js",
+    "static/js/787.6a18f854.chunk.js": "/sand-frontend/static/js/787.6a18f854.chunk.js",
+    "static/media/5thimg.png": "/sand-frontend/static/media/5thimg.4fe38d40d447ee3e928b.png",
+    "static/media/1stimg.svg": "/sand-frontend/static/media/1stimg.4d9cbb2fae9843a895d6bebf7c5be88e.svg",
+    "static/media/4thimg.svg": "/sand-frontend/static/media/4thimg.85c5b8d57430f0f71261d4d98dcb4ccd.svg",
+    "static/media/3rdimg.svg": "/sand-frontend/static/media/3rdimg.44d32dd560800cfea54139032edf5c33.svg",
+    "static/media/logo.svg": "/sand-frontend/static/media/logo.b667f742a670896e01737cd5bf7a6079.svg",
+    "static/media/3rdchi2.png": "/sand-frontend/static/media/3rdchi2.0b44a6b168615c75e34a.png",
+    "static/media/3rdchi.png": "/sand-frontend/static/media/3rdchi.d3c4fd0cdca8966ff3c4.png",
+    "static/media/card1.svg": "/sand-frontend/static/media/card1.81d289da617ad619b3c33bee20f4b7b1.svg",
+    "static/media/card3.svg": "/sand-frontend/static/media/card3.2f6776844d1db40dc9b55e7486705386.svg",
+    "index.html": "/sand-frontend/index.html",
+    "main.2437933f.css.map": "/sand-frontend/static/css/main.2437933f.css.map",
+    "main.b1c6a3c6.js.map": "/sand-frontend/static/js/main.b1c6a3c6.js.map",
+    "787.6a18f854.chunk.js.map": "/sand-frontend/static/js/787.6a18f854.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2437933f.css",
+    "static/js/main.b1c6a3c6.js"
+  ]
+}
